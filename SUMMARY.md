@@ -1,10 +1,12 @@
 # Table of contents
 
-* [Git Book 가이드](README.md)
+* [BackEnd Study](README.md)
 
-# Tabld of contents
+## 주요 그룹 제목
 
-## BackEnd-survival
+* [0주차](undefined/0/README.md)
+  * [PR 날리기](undefined/0/pr.md)
 
-* [0주차](/week/week0/week0.md)
-    * [PR 날리기](/week/week0/pull-request.md)
+## 효과적인 학습법
+
+* [미라클 모닝](undefined-1/undefined.md)
