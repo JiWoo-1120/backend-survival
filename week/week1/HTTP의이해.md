@@ -1,5 +1,5 @@
 
-=============
+
 # HTTP(Hypertext Transfer Protocol)
     HTML과 같은 하이퍼미디어 문서를 전송하기 위한 애플리케이션 레이어 프로토콜
 
@@ -29,7 +29,7 @@
 
 >### - 7계층
 >####    : 응용계층 -> HTTP, HTTPS(보안프로토콜)
->   <img src="/IMG/HTTP,HTTPS차이.png" width="770px" height="600px" title="HTTP, HTTPS차이" alt="HTTP,HTTPS차이"></img><br/>
+>   <img src="/IMG/HTTP,HTTPS차이.png" width="950px" height="800px" title="HTTP, HTTPS차이" alt="HTTP,HTTPS차이"></img><br/>
 
 ---------------------------------------
 
