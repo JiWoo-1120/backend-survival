@@ -29,7 +29,7 @@
 
 >### - 7계층
 >####    : 응용계층 -> HTTP, HTTPS(보안프로토콜)
->   <img src="/IMG/HTTP,HTTPS차이.png" width="950px" height="800px" title="HTTP, HTTPS차이" alt="HTTP,HTTPS차이"></img><br/>
+>   <img src="/IMG/HTTP,HTTPS차이.png" width="60%" height="55%" title="HTTP, HTTPS차이" alt="HTTP,HTTPS차이"></img><br/>
 
 ---------------------------------------
 
@@ -72,21 +72,21 @@ HTTP는 각각의 요청이 독립적
 ---------------------------------------
 
 ##  HTTP 요청 메서드(HTTP request methods)
-    *(멱등성 : 같은걸 여러번 요청해도 바뀌지 않는 것)*
-    GET : 멱등성 보장 O, READ
-    HEAD : 바디없이 HEADER만 얻고싶을 때
-    POST : 멱등성 보장 X
-    PUT  : Udate (모든 데이터를 update, 덮어씌우기)
-    PATCH : 멱등성 보장 X, Udate (부분적 update 가능)
-    DELETE : 삭제
-    OPTIONS : 지원 확인(HEADER 정보확인, 메서드 사용가능한지 확인)
+__(멱등성 : 같은걸 여러번 요청해도 바뀌지 않는 것)__
+GET : 멱등성 보장 O, READ
+HEAD : 바디없이 HEADER만 얻고싶을 때
+POST : 멱등성 보장 X
+PUT  : Udate (모든 데이터를 update, 덮어씌우기)
+PATCH : 멱등성 보장 X, Udate (부분적 update 가능)
+DELETE : 삭제
+OPTIONS : 지원 확인(HEADER 정보확인, 메서드 사용가능한지 확인)
 
 ---------------------------------------
 ##  HTTP 응답(HTTP response status code)
-    1xx - 정보 
-    2xx - 성공관련 , 200 OK, 201 Created, 204 No Content
-    3xx - 리다이렉션, 304 Not Modified가 특수한 형태
-    리다이렉션 : 다른페이지로 옮겨주는 것
-    ex> 게시물을 작성한 후 작성한 게시물로 이동
-    4xx - 클라이언트 쪽 문제, 404 Not Found
-    5xx - 서버 쪽 문제, 500 Internal Server Error
+1xx - 정보 
+2xx - 성공관련 , 200 OK, 201 Created, 204 No Content
+3xx - 리다이렉션, 304 Not Modified가 특수한 형태
+리다이렉션 : 다른페이지로 옮겨주는 것
+ex> 게시물을 작성한 후 작성한 게시물로 이동
+4xx - 클라이언트 쪽 문제, 404 Not Found
+5xx - 서버 쪽 문제, 500 Internal Server Error
