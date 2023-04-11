@@ -28,7 +28,7 @@ HTTP(Hypertext Transfer Protocol)
 
 >### - 7계층
 >####    : 응용계층 -> HTTP, HTTPS(보안프로토콜)
->   <img src="/IMG/HTTP,HTTPS차이.png" width="450px" height="300px" title="HTTP, HTTPS차이" alt="HTTP,HTTPS차이"></img><br/>
+>   <img src="/IMG/HTTP,HTTPS차이.png" width="550px" height="400px" title="HTTP, HTTPS차이" alt="HTTP,HTTPS차이"></img><br/>
 
 ---------------------------------------
 
@@ -38,7 +38,7 @@ HTTP(Hypertext Transfer Protocol)
 ### 서버(서비스를 전달하는 사람) → (처리) → 응답
 
 여기서 처리하는 것은?
-보내온 요청인 서비스/리소스를 처리한는 것 -> URL
+__보내온 요청인 서비스/리소스를 처리한는 것 -> URL__
     리소스 : 서비스의 자세한 내용
     URL : 리소스를 보내기 위해서 가장 많이 사용하는 방법
 
@@ -46,7 +46,7 @@ HTTP(Hypertext Transfer Protocol)
 
 ## 4. 무상태
 HTTP는 각각의 요청이 독립적
-###*즉, 클라이언트는 항상 자신이 누구인지 알려줘야한다.*
+### __즉, 클라이언트는 항상 자신이 누구인지 알려줘야한다.__
 
 >HOW?
 >    - 요청과 응답을 통해 계속 쿠키를 주고 받기
@@ -64,26 +64,28 @@ HTTP는 각각의 요청이 독립적
 -   Start line -> 요청과 응답의 형태가 다름
 -   Headers
 -   빈 줄
-- > Body
-  >    1. 크기를 알기가 어렵다. Headers에다가 Content-Length를 활용
-  >    2. Text 형태가 아닐 수 있다.(사람이 읽을 수 있는 형태가 아닐 수 있다.)
-  >    3. multipart/form-data 처럼 데이터를 여럿 보낼 수 있다.
+-   Body
+      1. 크기를 알기가 어렵다. Headers에다가 Content-Length를 활용
+      2. Text 형태가 아닐 수 있다.(사람이 읽을 수 있는 형태가 아닐 수 있다.)
+      3. multipart/form-data 처럼 데이터를 여럿 보낼 수 있다.
+---------------------------------------
 
-    ## HTTP 요청 메서드(HTTP request methods)
-    *(멱등성 : 같은걸 여러번 요청해도 바뀌지 않는 것)*
-    GET : 멱등성 보장 O, READ
-    HEAD : 바디없이 HEADER만 얻고싶을 때
-    POST : 멱등성 보장 X
-    PUT  : Udate (모든 데이터를 update, 덮어씌우기)
-    PATCH : 멱등성 보장 X, Udate (부분적 update 가능)
-    DELETE : 삭제
-    OPTIONS : 지원 확인(HEADER 정보확인, 메서드 사용가능한지 확인)
+##  HTTP 요청 메서드(HTTP request methods)
+        *(멱등성 : 같은걸 여러번 요청해도 바뀌지 않는 것)*
+        GET : 멱등성 보장 O, READ
+        HEAD : 바디없이 HEADER만 얻고싶을 때
+        POST : 멱등성 보장 X
+        PUT  : Udate (모든 데이터를 update, 덮어씌우기)
+        PATCH : 멱등성 보장 X, Udate (부분적 update 가능)
+        DELETE : 삭제
+        OPTIONS : 지원 확인(HEADER 정보확인, 메서드 사용가능한지 확인)
 
-    ## HTTP 응답(HTTP response status code)
-    1xx - 정보 
-    2xx - 성공관련 , 200 OK, 201 Created, 204 No Content
-    3xx - 리다이렉션, 304 Not Modified가 특수한 형태
-    리다이렉션 : 다른페이지로 옮겨주는 것
-    ex> 게시물을 작성한 후 작성한 게시물로 이동
-    4xx - 클라이언트 쪽 문제, 404 Not Found
-    5xx - 서버 쪽 문제, 500 Internal Server Error
+---------------------------------------
+##  HTTP 응답(HTTP response status code)
+        1xx - 정보 
+        2xx - 성공관련 , 200 OK, 201 Created, 204 No Content
+        3xx - 리다이렉션, 304 Not Modified가 특수한 형태
+        리다이렉션 : 다른페이지로 옮겨주는 것
+        ex> 게시물을 작성한 후 작성한 게시물로 이동
+        4xx - 클라이언트 쪽 문제, 404 Not Found
+        5xx - 서버 쪽 문제, 500 Internal Server Error
