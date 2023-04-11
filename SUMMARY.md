@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Git Book 가이드](README.md)
+* [BackEnd Study](README.md)
 
-# Tabld of contents
+## 주요 그룹 제목
 
 ## BackEnd-survival
 
