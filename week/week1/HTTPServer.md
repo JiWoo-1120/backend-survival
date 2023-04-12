@@ -12,12 +12,12 @@ I/O에서 아래의 이미지와 같이 socket이 다음명령을 잡고있다.
 이렇게 다음 응답을 기다리는 걸 Blocking이라고 한다.
         
 >    ### socket 다음에 나와야할 "Accept!"이 나오지 않는다.
->        <img src="blocking_ex1.png" width="450px" height="300px"></img><br/>
->        <img src="blocking_ex1_1.png" width="450px" height="300px"></img><br/>
+>    <img src="blocking_ex1.png" width="450px" height="300px"></img>
+>    <img src="blocking_ex1_1.png" width="450px" height="300px"></img><br/>
         
 >    ### socket 전에 "Accept!"을 입력해서 출력되었다.
->        <img src="blocking_ex1.png" width="450px" height="300px"></img><br/>
->        <img src="blocking_ex1_1.png" width="450px" height="300px"></img><br/>
+>    <img src="blocking_ex1.png" width="450px" height="300px"></img>
+>    <img src="blocking_ex1_1.png" width="450px" height="300px"></img><br/>
 ```java
      ServerSocket listener = new ServerSocket(8080, 0);
 ```
