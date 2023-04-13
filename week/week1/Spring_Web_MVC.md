@@ -12,7 +12,7 @@ Spring 프레임워크 프로젝트 자체를 지칭하는데 사용될 수 있�
 
 # Spring initializr
 스프링 프로젝트를 쉽게 생성할 수 있게 도와준다.
-<img src="/IMG/Spring initializr.png" ></img>
+</br><img src="/IMG/Spring initializr.png" ></img>
 
 # Web Server와 WAS(Web Application Server)
 ## Web Server
@@ -28,13 +28,13 @@ Web 서버가 설치되어 있는 컴퓨터
 - DB 조회나 다양한 로직 처리를 요구하는 동적인 컨텐츠를 제공하기 위해 만들어진 Application Server
 - HTTP를 통해 컴퓨터나 장치에 애플리케이션을 수행해주는 미들웨어(소프트웨어 엔진)이다.
 - “웹 컨테이너(Web Container)” 혹은 “서블릿 컨테이너(Servlet Container)”라고도 불린다.
+    
     ##  Tomcat
     톰캣은 아파치 소프트웨어 재단의 웹 어플리케이션 서버(와스)로서, 
     자바 서블릿을 실행키고 JSP코드가 포함되어 있는 웹 페이지를 만들어준다. 
 
-[Title](Web Server와 WAS의 차이와 웹 서비스 구조)
-[Google](https://gmlwjd9405.github.io/2018/10/27/webserver-vs-was.html, "study")
-
+[Web Server와 WAS의 차이와 웹 서비스 구조](https://gmlwjd9405.github.io/2018/10/27/webserver-vs-was.html, "study")
+---------------------------------------
 # Spring MVC
 ## Model-View-Controller 아키텍처 패턴
     1. view 화면
@@ -42,18 +42,17 @@ Web 서버가 설치되어 있는 컴퓨터
     3. Model 그 외의 모든것
         모델에 핵심 비즈니스가 들어간다.
     # 관심사의 분리(Seperation of Concern)
-    
+---------------------------------------
 # Java Annotation
 어노테이션을 직접 타고 들어가면 어떤 것들이 포함되어있는지 파악할 수 있다.
 ##   @RestController
 ###    @Controller
 ###    @ResponseBody
 Body에 있는 것을 직접적으로 response(응답)해줄거야~!
-<img src="/IMG/RestController.png" ></img>
-
-
+</br><img src="/IMG/RestController.png" ></img>
 
 # @GetMapping
 ##   @RequestMapping
+
 <img src="/IMG/겟매핑,리퀘스트매핑.png" ></img>
 
