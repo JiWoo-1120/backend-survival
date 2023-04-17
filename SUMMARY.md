@@ -18,3 +18,9 @@
     * [JAVA HTTP Server](/week/week1/JAVA_HTTP_Server.md)
     * [Spring Web MVC](/week/week1/Spring_Web_MVC.md)
 
+* [2주차 REST API](/week/week1/week1.md)
+    * [REST API](/week/week1/HTTP의이해.md)
+    * [URL & MIME type](/week/week1/HTTPClient.md)
+    * [Collection pattern](/week/week1/HTTPServer.md)
+    * [Collection pattern 적용](/week/week1/JAVA_HTTP_Server.md)
+    * [Spring Web MVC로 구현](/week/week1/Spring_Web_MVC.md)
