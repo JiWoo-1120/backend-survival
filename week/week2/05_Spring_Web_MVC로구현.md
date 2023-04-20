@@ -1,15 +1,15 @@
 # [@RequestMapping](https://www.iana.org/assignments/media-types/media-types.xhtml)
 특정 url로부터 요청을 받으면 어떤 Controller에서 처리할 지 알아야 한다.
 이 때, 특정 url을 요청을 수행할 Controller과 매핑하여 지정하는 어노테이션이 @RequestMapping이다.
-    * @GetMapping
-    HTTP GET 요청을 특정 핸들러 메서드에 매핑하기 위한 어노테이션
-    * @PostMapping
-    * @PatchMapping
-    * @DeleteMapping
-    * @PathVariable
-    - URL 경로에 변수를 넣어주는 것이다.
-    - @PathVariable 어노테이션을 이용해서 {템플릿 변수} 와 동일한 이름을 갖는 파라미터를 추가하면 된다.
-    </br><img src="/IMG/차이점.png" ></img>
+        @GetMapping
+        HTTP GET 요청을 특정 핸들러 메서드에 매핑하기 위한 어노테이션
+        @PostMapping
+        @PatchMapping
+        @DeleteMapping
+        @PathVariable
+        - URL 경로에 변수를 넣어주는 것이다.
+        - @PathVariable 어노테이션을 이용해서 {템플릿 변수} 와 동일한 이름을 갖는 파라미터를 추가하면 된다.
+        </br><img src="/IMG/차이점.png" ></img>
 
 # @RequestBody와 @ResponseBody 차이점
 
