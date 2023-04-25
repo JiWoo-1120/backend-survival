@@ -1,10 +1,10 @@
 # DTO (Data Transfer Object)
-제약조건
+> 제약조건
 > “between processes”
 > “working with a remote interface, such as Remote Facade”
 > 다른 프로세스와 통신, 그것도 원격(네트워크를 통해)으로!
 
-여기서 프로세스 간의 통신은
+여기서 프로세스 간의 통신은 IPC (Inter-Process Communication)라 부른다.
 ## IPC (Inter-Process Communication)
 * B/E와 F/E로 Tier를 나누면 IPC가 필수적이다.
 * 프로세스간의 통신
@@ -30,7 +30,7 @@ REST에선 표현을 다뤄야 하고, 이를 위해 데이터를 담는 것 외
 * JavaBeans에서 유래한 Java Bean 또는 그냥 Bean이라고 부르는 형태에 가까움(Spring Bean, POJO와 다름에 주의!)
 * 제대로 된 객체가 아니라 그냥 무기력한 데이터 덩어리. 
 
-    *자바빈즈(JavaBeans)*와 *EJB(Enterprise JavaBeans)*는 모두 자바에서 재사용 가능한 컴포넌트를 만들기 위한 방법론
+    _자바빈즈(JavaBeans)_ 와 _EJB(Enterprise JavaBeans)_ 는 모두 자바에서 재사용 가능한 컴포넌트를 만들기 위한 방법론
 * *자바빈즈(JavaBeans)*
     * 주로 프론트엔드에서 사용되는 컴포넌트로, UI와 데이터를 연결하는 역할을 합니다.
     * 프론트엔드와 백엔드 간의 데이터 전송을 담당
@@ -47,12 +47,12 @@ REST에선 표현을 다뤄야 하고, 이를 위해 데이터를 담는 것 외
     * JPA를 지양하고 DDD를 따르는 사람 중 일부는 ORM(JPA, 하이버네이트)은 Active Record + DTO처럼 접근.
 
     ### DDD(Domain-driven Design)
-    도메인 모델을 중심으로 소프트웨어를 설계
-    도메인 모델과 다른 레이어를 분리하여 구현
-    이를 다른 레이어와 분리하여 유연성과 확장성을 높이는 것을 강조합니다.
+    * 도메인 모델을 중심으로 소프트웨어를 설계
+    * 도메인 모델과 다른 레이어를 분리하여 구현
+    * 다른 레이어와 분리하여 유연성과 확장성을 높이는 것을 강조합니다.
 
     ### ORM(Object-Relational Mapping)
-    데이터베이스와 객체 간의 매핑을 수행
-    데이터베이스와 객체 지향 프로그래밍 간의 변환을 수행
-    JPA와 Hibernate는 대표적인 ORM 프레임워크
-    발 생산성이 높아지고 유지보수가 쉬워지지만, 데이터베이스와 객체 지향 프로그래밍 간의 차이로 인해 발생하는 문제들이 존재
+    * 데이터베이스와 객체 간의 매핑을 수행
+    * 데이터베이스와 객체 지향 프로그래밍 간의 변환을 수행
+    * JPA와 Hibernate는 대표적인 ORM 프레임워크
+    * 개발 생산성이 높아지고 유지보수가 쉬워지지만, 데이터베이스와 객체 지향 프로그래밍 간의 차이로 인해 발생하는 문제들이 존재
