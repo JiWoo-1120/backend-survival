@@ -29,5 +29,5 @@
 * 3주차 DTO & JSON & CORS
     * [DTO](/week/week3_DTO/01_DTO.md)
     * [직렬화](/week/week3_DTO/02_직렬화.md)
-    * [JacksonObjectMapper](/week/week3_DTO/03_Jackson ObjectMapper.md)
+    * [JacksonObjectMapper](/week/week3_DTO/03_Jackson_ObjectMapper.md)
     * [CORS](/week/week3_DTO/04_CORS.md)
