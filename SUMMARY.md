@@ -26,3 +26,7 @@
   * [직렬화](week/week3\_DTO/02\_직렬화.md)
   * [JacksonObjectMapper](week/week3\_DTO/03\_Jackson\_ObjectMapper.md)
   * [CORS](week/week3\_DTO/04\_CORS.md)
+* [4주차 Layered Architecture](backend-survival/3-dto-and-json-and-cors/README.md)
+  * [DTO](week/week4/01_LayerdArchitecture.md)
+  * [직렬화](week/week4/02_DataAccess.md)
+  * [JacksonObjectMapper](week/week4\03_DomainModel.md)
